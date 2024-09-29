@@ -38,7 +38,8 @@ pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
 # CORS Middleware
 origins = [
     "http://localhost:3000",
-    "http://192.168.5.55:3000"
+    "http://192.168.5.55:3000",
+    "https://aylix.world"
 ]
 
 app.add_middleware(
